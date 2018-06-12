@@ -1,0 +1,72 @@
+a = input("Enter first number")
+b = input("Enter second number")
+c = input("Enter third number")
+d = input("Enter fourth number")
+e = input("Enter fifth number")
+f = input("Enter sixth number")
+g = input("Enter seventh number")
+h = input("Enter eight number")
+i = input("Enter ninth number")
+j = input("Enter tenth number")
+ 
+list  = [a,b,c,d,e,f,g,h,i,j]
+ for x in range(len(list))
+    print(list[x])
+
+
+2.
+
+a = 1
+ while a==1:
+   number = input('Enter numbers')
+   print(number)
+
+3.
+
+a = [int(x) for x in input().split()]
+  1 2 3 4 5 6 7
+print (a)
+[1,2,3,4,5,6,7]
+for y in range(len(a)):
+ print(a[y]*a[y])
+
+
+4.
+li = ['aman','gaurav','kamal',1,2,3,4,5,1.5,2.5,3.6}
+I =[]
+F = []
+S =[]
+ for i in range(len(li)):
+  if type(li[i])==int:
+   I.append(li[i])
+  if type(li[i])==str:
+   S.append(li[i])
+  if type(li[i])==float:
+   F.append(li[i])
+print(I)
+print(F)
+print(S)
+
+
+5.
+E = []
+O =[]
+for i in range(1,101):
+ if (i%2==0):
+  E.append([i])
+ else:
+ O.append([i])
+print(E)
+print(O)
+
+
+6.
+num = int(input("enter the number of rows")
+ for i in range(1,num+1)
+  for j in range(1,i+1)
+    print("*",end =" ")
+ print()
+
+7.
+
+
